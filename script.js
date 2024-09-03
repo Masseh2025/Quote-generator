@@ -19,7 +19,7 @@ async function quoteGenerator() {
 
   //   setting content
   quote.textContent = quoteContent;
-  author.textContent = quoteAuthor;
+  author.textContent = `- ${quoteAuthor}`;
 }
 
 // calling function when page loads
