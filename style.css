@@ -126,9 +126,14 @@ textarea:not([rows]) {
   margin-bottom: 1rem;
 }
 
-.card__quote {
-  line-height: 2;
+.card__quotation-mark {
+  font-weight: 800;
 }
+.card__quote {
+  text-align: center;
+  line-height: 1;
+}
+
 .card__author {
   text-align: right;
   font-style: italic;
