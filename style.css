@@ -158,7 +158,21 @@ textarea:not([rows]) {
 /* media queries */
 
 @media (max-width: 500px) {
+  .background {
+    font-size: 0.8rem;
+    background: var(--white);
+  }
+
+  .card {
+    margin: 0;
+    box-shadow: none;
+  }
+
   .card__header {
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .card__button {
+    font-size: 1.5rem;
   }
 }
